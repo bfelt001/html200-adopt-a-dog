@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/968cc067b7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="styles/checkout.css">
+    <title>Checkout</title>
+</head>
+<body>
+    <a href="#main-content" class="hidden">Skip to main content</a>
+    
+    <header>  
+        <div class="flex-left">
+        <img src="images/adoptadog-logo.svg" alt="Adopt a Dog logo">
+        <h3>Seattle's premiere dog adoption agency</h3>
+        </div>
+        <div>
+            <section>
+              <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="white-text">$ 123.45</span>
+              </div>
+        <!--<a href="index-4.html" class="button">Checkout</a> -->
+            <input style="width:110px"  class="input" type="submit" value="Checkout">
+        </div>
+            </section>
+    </header>
+
+  <div>
+    <nav>
+        <ul class="navigation" >
+            <li  class="head-nav" ><a href="index.html">Home</a></li>
+            <li class="slash"><a href="index-2.html">Dogs</a></li>
+            <li class="slash"><a href="index-3.html">Blog</a></li>
+        </ul>
+    </nav> 
+      </div>
+
+      <main>
+      <div class="body">
+        <div>
+        <h2>Checkout</h2> 
+        </div>
+        <div class="flex-left">
+            
+        <form method="GET">
+            <div>
+          <label>Name
+        </div> <div>
+              <input type="text" name="firstName">
+          </label> </div>
+        
+        <div> 
+          <label>Email Address </div> <div>
+              <input type="email" name="contactEmail">
+          </label> </div>
+          
+          <div>
+          <label>Street Address </div>
+            <div>
+            <input type="text" name="streetAddress">
+        </label> </div>
+    
+        <div class="flex-r">
+            <div class="flex-l">
+    <div>
+        <label>City </div>
+            <div class="length"> <input type="text" name="cityAddress">
+        </label> </div>
+        </div>
+
+        <div>
+        <div>
+        <label>State </div>
+        <select class="state">
+            <option value=""></option>
+	        <option value="AL">AL</option>
+            <option value="AK">AK</option>
+            <option value="AR">AR</option>
+            <option value="AZ">AZ</option>
+            <option value="CA">CA</option>
+            <option value="CO">CO</option>
+            <option value="CT">CT</option>
+            <option value="DC">DC</option>
+            <option value="DE">DE</option>
+            <option value="FL">FL</option>
+            <option value="GA">GA</option>
+            <option value="HI">HI</option>
+            <option value="IA">IA</option>
+            <option value="ID">ID</option>
+            <option value="IL">IL</option>
+            <option value="IN">IN</option>
+            <option value="KS">KS</option>
+            <option value="KY">KY</option>
+            <option value="LA">LA</option>
+            <option value="MA">MA</option>
+            <option value="MD">MD</option>
+            <option value="ME">ME</option>
+            <option value="MI">MI</option>
+            <option value="MN">MN</option>
+            <option value="MO">MO</option>
+            <option value="MS">MS</option>
+            <option value="MT">MT</option>
+            <option value="NC">NC</option>
+            <option value="NE">NE</option>
+            <option value="NH">NH</option>
+            <option value="NJ">NJ</option>
+            <option value="NM">NM</option>
+            <option value="NV">NV</option>
+            <option value="NY">NY</option>
+            <option value="ND">ND</option>
+            <option value="OH">OH</option>
+            <option value="OK">OK</option>
+            <option value="OR">OR</option>
+            <option value="PA">PA</option>
+            <option value="RI">RI</option>
+            <option value="SC">SC</option>
+            <option value="SD">SD</option>
+            <option value="TN">TN</option>
+            <option value="TX">TX</option>
+            <option value="UT">UT</option>
+            <option value="VT">VT</option>
+            <option value="VA">VA</option>
+            <option value="WA">WA</option>
+            <option value="WI">WI</option>
+            <option value="WV">WV</option>
+            <option value="WY">WY</option>
+        </select> 
+    
+        </label>
+        </div> 
+       
+        <div class="flex-l">
+        <div>
+        <label>Zip Code </div> <div>
+            <input type="text" name="zipCode">
+        </label>
+    </div>
+</div>
+</div>
+    
+        <div> 
+            <label>First Time Adopter? </div>
+                <div><input type="radio" name="special" value="yes">
+                Yes     
+            </label> 
+                <input type="radio" name="special" value="no">
+                No    
+        </div>
+
+       <div ><label >Pickup Location </div>
+        <select class="length">
+            <option value=""> </option>
+	        <option value="North">North</option>
+            <option value="South">South</option>
+            </select>
+        </label>
+    </div>
+
+    <div>
+        <h4>Dogs Adopted</h4>
+    <div class="flex-row">
+        <img src="images/lucas-checkout.jpg" alt="Photo of a dog smiling at the camera">
+        <div>
+        <h5>Lucas</h5>
+        <div class="flex-row">
+            <h6>Cost to Adopt:</h6>
+            <h6 class="span">$123.45</h6> </div>
+    </div>
+    <div class="flex-row">
+        <img src="images/duffy-checkout.jpg" alt="Photo of a white dog with brown spots and blue eyes">
+        <div><h5>Duffy</h5>
+        <div class="flex-row">
+        <h6>Cost to Adopt:</h6>
+        <h6 class="span">$123.45</h6> </div>
+    </div></div></div>
+    <div><label>
+         <h4>Total Adoption Cost</h4></label>
+         <span>$123.45</span>
+    </div>
+        </div>
+          <input class="marg" type="submit" value="Submit">
+      </section>
+      </div>
+    </body>
+</main>
+
+<footer>
+    <div>
+    <img src="images/adoptadog-logo.svg" alt="Adopt A Dog logo">
+    
+    <span>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Eligendi quaerat veritatis, praesentium omnis providen.</span>
+    <nav>
+        <ul class="foot-nav">
+            <li class="space"><a href="index.html">Home</a></li>
+            <li class="slash"><a href="index-2.html">Dogs</a></li>
+            <li class="slash"><a href="index-3.html">Blog</a></li>
+        </ul>
+    </nav>
+    <span>© 2022 Adoptadog, LLC  |  Seattle, WA</span>
+</div>
+</footer>
+
+</body>
+</html>
