@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/968cc067b7.js" crossorigin="anonymous"></script>
+    <script src="dogs.js"></script>
     <link rel="stylesheet" type="text/css" href="styles/homepg.css" />
     <title>Adopt A Dog</title>
 </head>
@@ -21,7 +22,7 @@
             <section>
             <div>
         <i class="fa-solid fa-cart-shopping"></i>
-        <span class="white-text">$ 123.45</span>
+         <span class="white-text" id="totalFee">$0</span>
             </div>
         <a href="checkout.html">
         <input  style="width:110px"  class="input" type="submit" value="Checkout"></a>
@@ -56,7 +57,8 @@
 
   <div class="cards">
   <section class="card">
-      <img src="images/murphy-card.jpg" alt="Photo of a large brown dog with white around nose">
+      <img src="images/murphy-card.jpg" alt="Photo of a large brown dog with white around nose" 
+          onclick="clickDog('Murphy','Cocker Spaniel','$123.45')">
       <h2>Murphy</h2>
       <div class="flex-row">
         <h5>Cost to Adopt:</h5>
@@ -64,10 +66,11 @@
         </div>
       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, magni. Ex itaque consequatur nemo magni adipisci est, distinctio illum.
       </p>
-      <input type="submit" value="Adopt">
+      <input onclick="addFee(123.45)" type="submit" value="Adopt">
   </section>
   <section class="card">
-    <img src="images/poppy-card.jpg" alt="Photo of a scruffy white dog walking on the street">
+    <img src="images/poppy-card.jpg" alt="Photo of a scruffy white dog walking on the street" 
+        onclick="clickDog('Poppy','Maltipoo','$123.45')">
     <h2>Poppy</h2>
     <div class="flex-row">
     <h5>Cost to Adopt:</h5>
@@ -75,10 +78,11 @@
     </div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, magni. Ex itaque consequatur nemo magni adipisci est, distinctio illum.
     </p>
-    <input type="submit" value="Adopt">
+    <input onclick="addFee(123.45)" type="submit" value="Adopt">
 </section>
 <section class="card">
-    <img src="images/jack-card.jpg" alt="Photo of a white dog with brown spots sitting">
+    <img src="images/jack-card.jpg" alt="Photo of a white dog with brown spots sitting" 
+        onclick="clickDog('Jack','Beagle','$123.45')">
     <h2>Jack</h2>
     <div class="flex-row">
         <h5>Cost to Adopt:</h5>
@@ -86,10 +90,11 @@
     </div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, magni. Ex itaque consequatur nemo magni adipisci est, distinctio illum.
     </p>
-    <input type="submit" value="Adopt">
+    <input onclick="addFee(123.45)" type="submit" value="Adopt">
 </section>
 <section class="card">
-    <img src="images/duffy-card.jpg" alt="Photo of a White dog with brown spots in the grass">
+    <img src="images/duffy-card.jpg" alt="Photo of a White dog with brown spots in the grass" 
+        onclick="clickDog('Duffy','Pitbull','$123.45')">
     <h2>Duffy</h2>
     <div class="flex-row">
         <h5>Cost to Adopt:</h5>
@@ -97,13 +102,14 @@
     </div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, magni. Ex itaque consequatur nemo magni adipisci est, distinctio illum.
     </p>
-    <input type="submit" value="Adopt">
+    <input onclick="addFee(123.45)" type="submit" value="Adopt">
 </section>
 </div>
 
 <div class="cards">
 <section class="card">
-    <img src="images/lucas-card.jpg" alt="Photo of a black dog smiling at the camera">
+    <img src="images/lucas-card.jpg" alt="Photo of a black dog smiling at the camera" 
+         onclick="clickDog('Lucas','Boxer','$123.45')">
     <h2>Lucas</h2>
     <div class="flex-row">
         <h5>Cost to Adopt:</h5>
@@ -111,10 +117,11 @@
     </div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, magni. Ex itaque consequatur nemo magni adipisci est, distinctio illum.
     </p>
-    <input type="submit" value="Adopt">
+    <input onclick="addFee(123.45)" type="submit" value="Adopt">
 </section>
 <section class="card">
-    <img src="images/jake-card.jpg" alt="Photo of a white dog with a collar on">
+    <img src="images/jake-card.jpg" alt="Photo of a white dog with a collar on" 
+        onclick="clickDog('Jake','Cocker Spaniel','$123.45')">
     <h2>Jake</h2>
     <div class="flex-row">
         <h5>Cost to Adopt:</h5>
@@ -122,10 +129,11 @@
     </div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, magni. Ex itaque consequatur nemo magni adipisci est, distinctio illum.
     </p>
-    <input type="submit" value="Adopt">
+    <input onclick="addFee(123.45)" type="submit" value="Adopt">
 </section>
 <section class="card">
-    <img src="images/angus-card.jpg" alt="Photo of a brown dog with its mouth open">
+    <img src="images/angus-card.jpg" alt="Photo of a brown dog with its mouth open" 
+         onclick="clickDog('Angus','American Staffordshire Terrier','$123.45')">
     <h2>Angus</h2>
     <div class="flex-row">
         <h5>Cost to Adopt:</h5>
@@ -133,10 +141,11 @@
     </div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, magni. Ex itaque consequatur nemo magni adipisci est, distinctio illum.
     </p>
-    <input type="submit" value="Adopt">
+    <input onclick="addFee(123.45)" type="submit" value="Adopt">
 </section>
 <section class="card">
-    <img src="images/violet-card.jpg" alt="Photo of a young dark brown dog looking up at the camera">
+    <img src="images/violet-card.jpg" alt="Photo of a young dark brown dog looking up at the camera" 
+          onclick="clickDog('Violet','Labrador Retriever','$123.45')">
     <h2>Violet</h2>
     <div class="flex-row">
         <h5>Cost to Adopt:</h5>
@@ -144,7 +153,7 @@
     </div>
     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, magni. Ex itaque consequatur nemo magni adipisci est, distinctio illum.
     </p>
-    <input type="submit" value="Adopt">
+    <input onclick="addFee(123.45)" type="submit" value="Adopt">
 </section>
 </div>
 
