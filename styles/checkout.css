@@ -1,0 +1,450 @@
+* {
+    vertical-align: baseline;
+    background: transparent; 
+  
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    
+}
+
+.hidden {
+    position: relative;
+    left: -100000px;
+    top: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden:focus {
+    left: 0;
+}
+
+header{
+    width: 100vw;
+    margin: -20px 0 0 0;
+    padding: 0;
+    background-color: #093C60;
+    display: flex;
+    justify-content: space-between;
+      
+}
+header img {
+    margin-top: 10%;
+}
+
+#header-background {
+    width: 100vw;
+    background-size: cover;
+    background-image: url('../images/header-image.jpg');
+
+}
+
+header div {
+    padding: 1rem 0 8rem 4rem;
+}
+
+header div div {
+    display: flex;
+    margin: 0;
+    padding: 2rem 8rem 0 0;
+    align-items: flex-end;
+    justify-content: flex-end;
+    flex-flow: row nowrap;
+}
+
+header section {
+    display: flex;
+    flex-flow: column nowrap;
+    align-content: flex-start;
+    justify-content: flex-start;
+}
+
+.flex-left {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    margin: 0 1rem 0 0;
+}
+
+.flex-l {
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column nowrap;
+    
+}
+
+.flex-right {
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column wrap;
+    
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+}
+
+.flex-r {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    width: 65%;
+}
+
+.head-nav {
+  margin-left: 8rem;
+  list-style: '';
+    padding: 10px;
+}
+
+.navigation {
+    background-color: #ECECEC;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-content: flex-start;
+    list-style-type: none;
+}
+
+label {
+    color: #093C60;
+    font-weight: 600;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 2.5rem;
+    color: #093C60;
+    
+}
+
+.h1 {
+    margin: 1.5rem 0 0 3rem;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 2em;
+    color: #093C60;
+    margin: 1rem 0 1rem 0;
+}
+
+h3 {
+    color: #093C60;
+    font-weight: 600;
+    margin-top: 0;
+}
+
+header h3 {
+    font-weight: normal;
+    font-size: 1.5em;
+    color: #81B741;
+    margin-top: 0;
+}
+
+h4 {
+    color: #093C60; 
+    margin-bottom: 1.35rem;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #093C60;
+    margin: 0 0 0 .5rem;
+}
+h6 {
+    font-size: 1em;
+    margin: 0 0 0 .5rem;
+}
+
+.span {
+    font-weight: 100;
+    padding: 0 1rem 0 .5rem;
+}
+
+p {
+    font-weight: normal;
+    font-size: 1em;
+    color: #535353;
+}
+
+.button {
+    font-family: inherit;
+    font-size: 100%;
+    box-sizing: border-box;
+    display: block;
+    margin: .5rem;
+}
+
+select  {
+    width: 65%;
+    border-color: #ECECEC;
+    border-width: .08rem;
+    margin: .2rem 0 0 0 ;
+    padding: .5rem 1rem 0 0;
+  }
+
+.state {
+        width: 100px;
+        border-color: #dddcdccb;
+        border-width: .08rem;
+        margin: .2rem 4rem 0 0 ;
+        padding: .5rem 2rem 0 0;
+      }
+
+.length {
+    width: 250px;
+    margin-right: 0;
+    }
+
+.length1 {
+    width: 50px;
+    margin-right: 0;
+}  
+
+.marg {
+margin-top: 1rem;
+}
+
+input[type=text] {
+    width: 65%;
+    padding: .3rem;
+    border-color: #ECECEC;
+    border-width: .05rem;
+    margin: .2rem 0 1rem 0;
+  }
+  input[type=email] {
+    width: 65%;
+    padding: .3rem;
+    border-color: #ECECEC;
+    border-width: .05rem;
+    margin: .2rem 0 1rem 0;
+  }
+
+  input[type=radio] {
+    margin: .2rem 0 1rem 0;
+  }
+
+input[type=submit] {
+    background-color: #81B741;
+    color: white;
+    padding: .5em;
+    border: none;
+    width: 20%;
+    
+}
+
+div section  {
+    width: 100%;
+}
+
+.white-text{
+  color: white;
+}
+
+i{
+  color: white;
+}
+
+.space {
+    list-style: '';
+    padding: 10px;
+
+} 
+
+.slash {
+    list-style: '/';
+    padding: 10px;
+    color: #535353;
+} 
+
+.home-intro{
+    display: flex;
+    flex-flow:row nowrap;
+    margin: 1rem 10rem 1rem 3rem;
+    height: max-content;
+    max-width: 50rem;
+    
+}
+
+.intro-img {
+    width: 250px;
+
+}
+
+.intro-span {
+    padding-left: 1rem;
+    
+}
+
+.body {
+    display: flex;
+    flex-flow: column nowrap;
+    margin: 0 4rem 2rem 8rem;
+    
+}
+
+.cards {
+    display: flex;
+    flex-wrap: nowrap;
+    /*grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-auto-rows: auto; */
+    padding: 0 2rem;
+    justify-content: space-between;
+  }
+
+.card {
+    background-color: white; 
+    border: .1rem solid #ECECEC;
+    margin: 1rem;
+    width: 150px;
+    
+}
+img {
+    width: 50px;
+}
+header img {
+    width: 250px;
+}
+
+footer img {
+    width: 150px;
+}
+
+section h2 {  
+    margin-left:  auto;
+    padding: 0 .2rem 0 .5rem;
+
+}
+section h5 {
+    margin-left:  auto;
+    padding: .5rem .2rem 0 .5rem;
+}
+section span {
+    margin-left:  auto;
+    padding: .5rem .3rem 0 .5rem; 
+}
+ section p {
+    margin-left:  auto;
+    font-size: .8rem;
+    padding: 0 .2rem 0 .5rem;
+
+}
+
+section input {
+    margin-top: .3rem;
+}
+
+section span {
+    font-size: .8rem;
+    text-align: auto;
+}
+
+.more-div {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 100%;
+}
+
+.see-more {
+    background-color: #ECECEC;
+    color: #093C60;
+    padding: .5rem 2rem;
+    text-decoration: none;
+    font-weight: 550;
+    width: fit-content;
+    margin-top: 1rem;
+}
+
+footer{
+    background-color: #3D3D3D;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+
+}
+footer div {
+    display: flex; 
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+footer img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    vertical-align: middle;
+    
+    padding: 1rem 5rem;
+    width: 200px;
+    
+}
+
+footer p  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1rem 5rem;
+    color: white;
+}
+
+.foot-nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 0;
+    list-style-type: none;
+    color: white;
+       
+}
+
+footer span  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 1rem 5rem;
+    color: white;
+}
+
+nav a:link {
+    color: #093C60;
+    font-weight: 550;
+    text-decoration: none;
+}
+
+nav a:visited {
+    color: #093C60;
+    font-weight: 550;
+    text-decoration: none;
+    
+}
+
+footer a:link {
+    color: white;
+    font-weight: 200;
+}
+
+footer a:visited {
+    color: white;
+    font-weight: 200;
+}
