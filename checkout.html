@@ -11,7 +11,7 @@
 <body>
     <a href="#main-content" class="hidden">Skip to main content</a>
     
-    <header id="header-background">  
+    <header class="header-gradient" id="header-background">  
         <div class="flex-left">
         <img src="images/adoptadog-logo.svg" alt="Adopt a Dog logo">
         <h3>Seattle's premiere dog adoption agency</h3>
@@ -30,8 +30,8 @@
 
   <div>
     <nav>
-        <ul class="navigation" >
-            <li  class="head-nav" ><a href="index.html">Home</a></li>
+        <ul class="navigation">
+            <li class="head-nav" ><a href="index.html">Home</a></li>
             <li class="slash"><a href="alldogs.html">Dogs</a></li>
             <li class="slash"><a href="blog.html">Blog</a></li>
         </ul>
@@ -43,13 +43,15 @@
         <div>
         <h2>Checkout</h2> 
         </div>
-        <div class="flex-left">
-            
-        <form method="GET">
+
+        <div class="flex-left">   
+        
+        <form id="myForm" method="post" onsubmit="return logForm()">
+            <script src="form.js"></script>
             <div>
           <label>Name
         </div> <div>
-              <input type="text" name="firstName">
+              <input type="text" name="Name">
           </label> </div>
         
         <div> 
@@ -74,7 +76,7 @@
         <div>
         <div>
         <label>State </div>
-        <select class="state">
+        <select class="state" name="state">
             <option value=""></option>
 	        <option value="AL">AL</option>
             <option value="AK">AK</option>
@@ -150,14 +152,15 @@
                 No    
         </div>
 
-       <div ><label >Pickup Location </div>
-        <select class="length">
+       <div ><label>Pickup Location </div>
+        <select class="lengthP" name="pickupLocal">
             <option value=""> </option>
 	        <option value="North">North</option>
             <option value="South">South</option>
             </select>
         </label>
     </div>
+
 
     <div>
         <h4>Dogs Adopted</h4>
@@ -182,7 +185,8 @@
     </div>
         </div>
           <input class="marg" type="submit" value="Submit">
-      </section>
+        </form>
+
       </div>
     </body>
 </main>

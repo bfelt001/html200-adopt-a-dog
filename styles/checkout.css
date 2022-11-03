@@ -43,6 +43,10 @@ header img {
 
 }
 
+.header-gradient {
+    background: linear-gradient(to top, #093C60 70%, #81B741);
+}
+
 header div {
     padding: 1rem 0 8rem 4rem;
 }
@@ -89,11 +93,12 @@ header section {
     flex-flow: row nowrap;
     margin: 0;
     padding: 0;
+    
 }
 
 .flex-r {
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     margin: 0;
     padding: 0;
     width: 65%;
@@ -200,22 +205,30 @@ select  {
   }
 
 .state {
-        width: 100px;
+        width: 70%;
         border-color: #dddcdccb;
         border-width: .08rem;
         margin: .2rem 4rem 0 0 ;
-        padding: .5rem 2rem 0 0;
+        padding: .5rem 1rem 0 0;
       }
 
 .length {
-    width: 250px;
+    width: 100%;
     margin-right: 0;
     }
 
 .length1 {
     width: 50px;
     margin-right: 0;
-}  
+} 
+
+.lengthP {
+    width: 65%;
+    border-color: #ECECEC;
+    border-width: .08rem;
+    margin: .2rem 0 0 0 ;
+    padding: .5rem 1rem 0 0;
+  }
 
 .marg {
 margin-top: 1rem;

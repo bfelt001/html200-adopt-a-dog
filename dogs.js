@@ -13,3 +13,4 @@ function addFee(fee) {
     document.getElementById("totalFee").innerHTML = new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(total);
     alert(new Intl.NumberFormat('en-US', { style: 'currency', currency: 'USD' }).format(total));
 }
+
