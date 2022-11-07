@@ -44,6 +44,10 @@ header img {
 
 }
 
+.header-gradient {
+    background: linear-gradient(to top, #093C60 70%, #81B741);
+}
+
 header div {
     padding: 1rem 0 8rem 4rem;
 }
@@ -237,6 +241,10 @@ section h1 {
     margin: .1rem;
     width: 100%;
     
+}
+
+.add-fee {
+    color: white;
 }
 
 section img {
@@ -565,8 +573,90 @@ margin-top: 1rem;
         margin-right: 0%;
       }
 }
+@media screen and (min-width: 770px) and (max-width: 850px) {
+    
+    .wrapper-1 {
+   
+        display: grid;
+        grid-template-columns: 60% 40%;
+        
+        grid-auto-rows: auto;
+        max-width: 100vw;
+        margin-left: 2%; 
+      }
+    .wrapper-2 {
+   
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-auto-rows: auto;
+        max-width: 100vw;
+        margin-left: auto;
+        margin-right: 10%; 
+      }
+    
+      .box {
+          border-radius: 2.5%;
+      }
+    
+      .one {
+        grid-column: 1 ;
+        grid-row: 1;
+        margin-left: 15%;
+        margin-right: 0%;
+        
+      }
+      .two {
+        grid-column: 1;
+        grid-row: 2;
+        margin-left: 15%;
+        margin-right: 20%;
+        max-width: 75%;
+      }
+      .three {
+        grid-column: 1;
+        grid-row: 3;
+        margin-left: 0%;
+        margin-right: 5%;
+      }
+      .four {
+        grid-column: 2;
+        grid-row: 3;
+        margin-left: 0%;
+        margin-right: 5%;
+      }
+      .five {
+        grid-column: 3;
+        grid-row: 3;
+        margin-left: 0%;
+        margin-right: 5%;
+      } 
+    
+      .six {
+        grid-column: 1;
+        grid-row: 4;
+        margin-left: 0%;
+        margin-right: 5%;
+      }
+      .seven {
+        grid-column: 2;
+        grid-row: 4;
+        margin-left: 0%;
+        margin-right: 5%;
+      }
+      .eight {
+        grid-column: 3;
+        grid-row: 4;
+        margin-left: 0%;
+        margin-right: 5%;
+      }
+      .nine {
+        grid-column: 2;
+        grid-row: 1/6;
+        margin: 5% 25% 5% 5%;
+      }
+}
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 769px) {
     .wrapper-1 {
    
         display: grid;
