@@ -1,3 +1,14 @@
+$(document).ready(function(){  
+    $("#myForm").on("submit", function(event) {
+        event.preventDefault();
+        console.log($(this).serialize());
+        alert("Thank you. The form information has been received.");
+      });
+});
+
+
+
+/*Vanilla javascript version below--------------
 function logForm(){
     const fields = ['Name', 'contactEmail', 'streetAddress', 'cityAddress', 'state', 'zipCode', 'special', 'pickupLocal'];
     for (let i = 0; i < fields.length; i++) {
@@ -9,7 +20,7 @@ function logForm(){
     
 }
 
-/*const theForm = document.createElement('form');
+const theForm = document.createElement('form');
 const fields = ['Name', 'Email Address', 'Street Address'];
 
 let divElement = document.createElement('div');
@@ -65,16 +76,6 @@ theForm.addEventListener('submit',
 alert("Thank you. The form information has been received.")
 );
 
-/*function showValues() {
-    var str = $( "form" ).serialize();
-    $( "#results" ).text( str );
-  }
-  $("form :input").change(function(){
-    console.log($("form").serialize());
-  showValues();
-
-
- });
 
 //document.getElementById('theForm').submit();*/
 
