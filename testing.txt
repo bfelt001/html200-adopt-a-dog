@@ -1,0 +1,29 @@
+TESTING
+
+To test this website and ensure it works across multiple platforms I completed testing. 
+Using Google Chrome's devtools I tested the responsiveness of each webpage and have 
+made sure that the website works in multiple devices. I used media queries, CSS grid layout, 
+and flexbox. 
+
+I will include some user personas that I created in order to build a website that is user friendly.
+
+User persona #1
+
+Name: John Johnny
+Occupation: Aerospace Engineer, employed
+Demographic: 30 years old, lives in Los Angeles. Single with no children, upper-middle income level 
+Description: Has latest iPhone device, a 2 year old iPad, 3 year old Macbook, and a new custom built PC running 
+latest version of Windows.
+Web browser choice is Google Chrome across all devices.
+
+User persona #2
+
+User name: Molly Martin
+Occupation: High School Teacher, employed
+Demographic: 55 years old, lives in St. Louis. Married with 2 children (18 and 20 years old), 
+lower-middle income level
+Description: This user does not prioritize mobile phone usage and prefers using a desktop computer or
+laptop to use the internet. This user does not have a newer computer; her desktop is 5 years old and runs
+current Windows version. She does update her browser when prompted and is used to browsing the web on a 
+desktop. This user has the settings in the browser for font size increased, so they require the website’s 
+font be accessible.
