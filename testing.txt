@@ -3,7 +3,9 @@ TESTING
 To test this website and ensure it works across multiple platforms I completed testing. 
 Using Google Chrome's devtools I tested the responsiveness of each webpage and have 
 made sure that the website works in multiple devices. I used media queries, CSS grid layout, 
-and flexbox. 
+and flexbox to ensure the elements do not overlap when the page is different sizes. I wanted to
+make sure the website can function on all types of devices at different sizes. I have tested this 
+project in three browsers: Chrome, Firefox, and Safari. 
 
 I will include some user personas that I created in order to build a website that is user friendly.
 
