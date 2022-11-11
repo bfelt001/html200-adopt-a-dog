@@ -43,6 +43,10 @@ header img {
 
 }
 
+.header-gradient {
+  background: linear-gradient(to top, #093C60 70%, #81B741);
+}
+
 header div {
     padding: 1rem 0 8rem 4rem;
 }

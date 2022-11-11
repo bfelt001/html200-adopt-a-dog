@@ -1,0 +1,34 @@
+TESTING
+
+To test this website and ensure it works across multiple platforms I completed testing. 
+Using Google Chrome's devtools I tested the responsiveness of each webpage and have 
+made sure that the website works in multiple devices. I used media queries, CSS grid layout, 
+and flexbox to ensure the elements do not overlap when the page is different sizes. I wanted to
+make sure the website can function on all types of devices at different sizes. I have tested this 
+project in three browsers: Chrome, Firefox, and Safari. 
+
+I will include some user personas that I created in order to build a website that is user friendly.
+
+User persona #1
+
+Name: John Johnny
+Occupation: Aerospace Engineer, employed
+Demographic: 30 years old, lives in Los Angeles. Single with no children, upper-middle income level 
+Description: Has latest iPhone device, a 2 year old iPad, 3 year old Macbook, and a new custom built 
+PC running latest version of Windows. He has advanced level skills using technology and prefers his 
+phone for casual browsing. This user will be using his thumbs as a cursor (buttons need to be easily 
+clickable).  Web browser choice is Google Chrome across all devices.
+
+User persona #2
+
+User name: Molly Martin
+Occupation: High School Teacher, employed
+Demographic: 55 years old, lives in St. Louis. Married with 2 children (18 and 20 years old), 
+lower-middle income level
+Description: This user does not prioritize mobile phone usage and prefers using a desktop computer or
+laptop to use the internet. This user does not have a newer computer; her desktop is 5 years old and runs
+current Windows version. Her laptop is a 2 year old average spec'd model. She uses Edge as a browser. 
+She does update her browser when prompted and is used to browsing the web on a desktop. This user has 
+the settings in the browser for font size increased, so they require the website’s font be accessible.
+She has an average level competency with technology. She can get confused on websites if it is too busy 
+visually or not a standard design.
